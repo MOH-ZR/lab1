@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        h1 {
+            padding: 40px;
+            background-color: aqua;
+            color: blueviolet;
+            border: 10px double firebrick;
+            border-radius: 30px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        p {
+            border: 3px solid black;
+            margin: 1000px, 0px;
+            padding: 25px;
+            font-weight: bold;
+            font-size: large;
+            border-radius: 15px;
+            margin-top: 30px;
+        }
+
+        p span {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <h1>Class 1 Lab</h1>
+        <p style="background-color: cadetblue; color: darkblue;">Which <span>operating system</span> are you running?</p>
+        <p style="background-color: chocolate; color: gold;">How many <span>cores</span> do you have?</p>
+        <p style="background-color: green; color: palegreen;">How much <span>memory</span> do you have?</p>
+        <p style="background-color: purple; color: skyblue;">What is your <span>screen</span> size?</p>
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        var operatingSystem = prompt('Which operating system are you running?');
+        console.log(operatingSystem + " opertaing system");
+        var numberOfCores = prompt('How many cores do you have?');
+        console.log(numberOfCores + " cores");
+        var memorySize = prompt('How much memory do you have?');
+        console.log(memorySize + " GB");
+        var screenSize = prompt('What is your screen size?');
+        console.log(screenSize + " inches");
+
+        alert("Greetings, you are using " + operatingSystem + " with " + numberOfCores 
+        + " cores" + " and " + memorySize + " GB RAM. screen size is " + screenSize + " inches");
+    </script>
+</body>
+</html>
